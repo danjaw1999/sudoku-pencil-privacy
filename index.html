@@ -3,252 +3,247 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sudoku Pencil Privacy Policy</title>
-<meta name="description" content="Privacy policy for the Sudoku Pencil app (iOS and Android) in Polish, English, German and Spanish.">
+<title>Sudoku Pencil · Privacy</title>
+<meta name="description" content="What Sudoku Pencil (iOS and Android) keeps, what Google sees when an ad loads, and how to change it. Polski, English, Deutsch, Español.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,400&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
 <style>
-  :root { --bg: #10131f; --surface: #181c2c; --line: #2a2f45; --text: #ecedf5; --muted: #a3a6bd; --accent: #8a7dff; }
+  :root { --paper: #f4ecdc; --ink: #2e2b36; --soft: #6a6372; --rule: #d9cdb6; --margin: #c98b74; --kraft: #c9a97a; }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-text-size-adjust: 100%; }
-  nav { position: sticky; top: 0; z-index: 1; background: rgba(16, 19, 31, 0.95); border-bottom: 1px solid var(--line); }
-  nav div { max-width: 760px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-  nav strong { margin-right: auto; font-size: 15px; }
-  nav a { color: var(--text); text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; }
-  nav a:hover, nav a:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
-  main { max-width: 760px; margin: 0 auto; padding: 8px 16px 64px; }
-  section { padding-top: 24px; scroll-margin-top: 64px; }
-  section + section { border-top: 1px solid var(--line); margin-top: 40px; }
-  h1 { font-size: 28px; line-height: 1.25; margin: 16px 0 4px; }
-  h2 { font-size: 19px; margin: 28px 0 8px; color: var(--accent); }
-  p, li { color: var(--text); }
-  .meta { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
-  .box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
-  ul { padding-left: 20px; }
-  a { color: var(--accent); overflow-wrap: anywhere; }
-  footer { color: var(--muted); font-size: 13px; text-align: center; padding: 0 16px 32px; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.65 Figtree, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-text-size-adjust: 100%; }
+  .page { max-width: 720px; margin: 0 auto; padding: 40px 16px 72px 16px; }
+  header { text-align: center; }
+  .grade { font: 13px/1 ui-monospace, Menlo, monospace; letter-spacing: .2em; color: var(--soft); }
+  .grade::before, .grade::after { content: ""; display: inline-block; width: 40px; border-top: 1px solid var(--soft); vertical-align: middle; margin: 0 12px; }
+  h1 { font: 300 44px/1.15 Spectral, Georgia, serif; margin: 18px 0 6px; }
+  .lede { font: italic 19px/1.5 Spectral, Georgia, serif; color: var(--soft); margin: 0 0 24px; }
+  .langs { display: flex; justify-content: center; gap: 6px 20px; flex-wrap: wrap; margin: 0 0 40px; }
+  .langs a { color: var(--ink); text-decoration: none; font: italic 18px Spectral, Georgia, serif; border-bottom: 2px solid var(--kraft); }
+  .langs a:hover, .langs a:focus-visible { border-color: var(--ink); outline: none; }
+  section { position: relative; padding: 8px 0 8px 28px; border-left: 2px solid var(--margin); margin: 0 0 64px; scroll-margin-top: 16px; }
+  h2 { font: 400 30px/1.2 Spectral, Georgia, serif; margin: 0 0 4px; }
+  .when { color: var(--soft); font-size: 14px; margin: 0 0 20px; }
+  .short { list-style: none; padding: 16px 18px; margin: 0 0 28px; background: rgba(255,255,255,.35); border: 1px solid var(--rule); border-radius: 4px; }
+  .short li { padding-left: 26px; position: relative; margin: 4px 0; }
+  .short li::before { content: "✓"; position: absolute; left: 2px; color: var(--margin); font-weight: 600; }
+  dl { margin: 0; }
+  dt { font: italic 21px/1.35 Spectral, Georgia, serif; margin: 28px 0 6px; }
+  dd { margin: 0; padding-bottom: 14px; border-bottom: 1px dashed var(--rule); }
+  dd ul { padding-left: 20px; margin: 8px 0; }
+  a { color: var(--ink); text-decoration-color: var(--margin); overflow-wrap: anywhere; }
+  footer { text-align: center; color: var(--soft); font: italic 15px Spectral, Georgia, serif; }
+  @media (max-width: 480px) { h1 { font-size: 36px; } section { padding-left: 16px; } }
 </style>
 </head>
 <body>
-<nav aria-label="Language">
-  <div>
-    <strong>Sudoku Pencil</strong>
+<div class="page">
+<header>
+  <div class="grade">9H · 9B</div>
+  <h1>Sudoku Pencil</h1>
+  <p class="lede">What the game keeps, and what it never asks for.</p>
+  <nav class="langs" aria-label="Language">
     <a href="#pl" hreflang="pl" lang="pl">Polski</a>
     <a href="#en" hreflang="en" lang="en">English</a>
     <a href="#de" hreflang="de" lang="de">Deutsch</a>
     <a href="#es" hreflang="es" lang="es">Español</a>
-  </div>
-</nav>
-<main>
+  </nav>
+</header>
 
 <section id="pl" lang="pl">
-  <h1>Polityka prywatności</h1>
-  <p class="meta">Sudoku Pencil (iOS i Android) · obowiązuje od 4 listopada 2026</p>
-  <div class="box">
-    <p>W skrócie: gra działa bez konta i bez internetu. Twoje gry, ustawienia i statystyki zostają na urządzeniu. Nie mamy własnego serwera. Dane potrzebne do reklam przetwarza Google (AdMob), a zakupy obsługują Apple i Google.</p>
-  </div>
-
-  <h2>Kto odpowiada za aplikację</h2>
-  <p>Aplikację Sudoku Pencil tworzy JaworIT Daniel Jaworski (administrator danych). Kontakt: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
-
-  <h2>Dane na Twoim urządzeniu</h2>
-  <p>Aplikacja zapisuje lokalnie, w pamięci telefonu: bieżącą grę (plansza, notatki, czas, błędy, użyte podpowiedzi), ustawienia (język, wibracje, podświetlanie, pokazywanie błędów, codzienne przypomnienie), statystyki (rozegrane i wygrane gry, najlepsze czasy i wyniki, passa dzienna), odpowiedź z pierwszego uruchomienia oraz informację, czy kupiłeś Premium. Te dane nie są wysyłane do nas ani nikomu innemu. Usuniesz je, czyszcząc dane aplikacji lub ją odinstalowując.</p>
-  <p>Nie zakładasz konta, nie podajesz imienia ani adresu e-mail. Aplikacja nie używa narzędzi analitycznych ani do raportowania awarii.</p>
-
-  <h2>Reklamy (Google AdMob)</h2>
-  <p>Wersja darmowa pokazuje baner, czasem reklamę pełnoekranową między grami oraz reklamy z nagrodą, które uruchamiasz sam. Reklamy dostarcza Google przez Google Mobile Ads SDK. Gdy reklama jest pobierana, SDK może zbierać i przesyłać do Google:</p>
-  <ul>
-    <li>identyfikatory urządzenia, np. identyfikator reklamowy (IDFA na iOS, za Twoją zgodą; identyfikator reklamowy Androida) i identyfikator zestawu aplikacji,</li>
-    <li>adres IP i przybliżoną lokalizację wyliczoną z adresu IP,</li>
-    <li>informacje o interakcjach z reklamami (np. wyświetlenia, kliknięcia, uruchomienia aplikacji),</li>
-    <li>dane diagnostyczne i o wydajności (np. czas uruchomienia, awarie SDK).</li>
+  <h2>Prywatność</h2>
+  <p class="when">Sudoku Pencil na iOS i Androida · wersja z 6 listopada 2026</p>
+  <ul class="short">
+    <li>Nie ma konta ani logowania.</li>
+    <li>Postępy zostają w Twoim telefonie; nie mamy własnego serwera.</li>
+    <li>Reklamy dostarcza Google, a płatności obsługują Apple i Google.</li>
   </ul>
-  <p>Google używa tych danych do wyświetlania i mierzenia reklam, analityki oraz zapobiegania oszustwom. Dane są szyfrowane w trakcie przesyłania. Szczegóły: <a href="https://policies.google.com/technologies/partner-sites">Jak Google wykorzystuje informacje z aplikacji partnerów</a> i <a href="https://policies.google.com/privacy">Polityka prywatności Google</a>.</p>
+  <dl>
+    <dt>Kto stoi za grą?</dt>
+    <dd>JaworIT Daniel Jaworski, administrator danych. Napisz: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</dd>
 
-  <h2>Zgoda na reklamy (RODO)</h2>
-  <p>W Europejskim Obszarze Gospodarczym, Wielkiej Brytanii i Szwajcarii przed pierwszą reklamą aplikacja pokazuje formularz zgody Google (UMP). Możesz zgodzić się na reklamy spersonalizowane, odmówić lub wybrać szczegółowe opcje. Bez zgody reklamy nie są personalizowane. Decyzję zmienisz w każdej chwili w Ustawieniach → „Prywatność reklam”. Podstawą przetwarzania jest Twoja zgoda (art. 6 ust. 1 lit. a RODO) lub, w zakresie reklam niespersonalizowanych i zapobiegania oszustwom, prawnie uzasadniony interes.</p>
+    <dt>Co gra zapisuje w telefonie?</dt>
+    <dd>Bieżącą planszę z notatkami, czasem, błędami i podpowiedziami; postęp w Podróży i kreski; statystyki, rekordy i passę planszy dnia; ustawienia (język, dźwięki, wibracje, podświetlanie, przypomnienie); odpowiedź z pierwszego uruchomienia oraz to, czy masz Premium. Nic z tego nie trafia do nas ani do nikogo innego. Usunięcie danych aplikacji albo jej odinstalowanie kasuje wszystko. Gra nie używa analityki ani narzędzi do raportowania awarii.</dd>
 
-  <h2>Śledzenie na iOS (ATT)</h2>
-  <p>Na iPhonie i iPadzie system zapyta, czy aplikacja może śledzić Twoją aktywność. Tylko jeśli się zgodzisz, Google otrzyma identyfikator reklamowy IDFA. Gra działa tak samo bez tej zgody. Zmienisz to w Ustawieniach systemu → Prywatność i ochrona → Śledzenie. Na Androidzie identyfikator reklamowy zresetujesz lub usuniesz w ustawieniach systemu.</p>
+    <dt>Co widzi Google, gdy ładuje się reklama?</dt>
+    <dd>W darmowej wersji widać baner, czasem reklamę pełnoekranową między grami i filmy z nagrodą, które włączasz sam. Dostarcza je Google AdMob (Google Mobile Ads SDK), które przy pobieraniu reklamy może zbierać:
+      <ul>
+        <li>identyfikatory urządzenia: identyfikator reklamowy (IDFA na iOS tylko za Twoją zgodą, identyfikator reklamowy Androida) i identyfikator zestawu aplikacji,</li>
+        <li>adres IP i przybliżoną lokalizację wyliczoną z niego,</li>
+        <li>interakcje z reklamami, np. wyświetlenia i dotknięcia,</li>
+        <li>dane diagnostyczne, np. czas uruchomienia i awarie SDK.</li>
+      </ul>
+      Google wykorzystuje je do wyświetlania i mierzenia reklam, analityki i zapobiegania oszustwom; transmisja jest szyfrowana. Więcej: <a href="https://policies.google.com/technologies/partner-sites">jak Google korzysta z danych z aplikacji partnerów</a> i <a href="https://policies.google.com/privacy">polityka prywatności Google</a>.</dd>
 
-  <h2>Powiadomienia</h2>
-  <p>Gra może przypominać o planszy dnia jednym lokalnym powiadomieniem dziennie o 19:00. Planuje je Twój telefon. Nie korzystamy z powiadomień push ani serwera i nie tworzymy tokenu powiadomień. Wyłączysz je w Ustawieniach gry lub systemu.</p>
+    <dt>Jak zmienić zgodę na reklamy?</dt>
+    <dd>W EOG, Wielkiej Brytanii i Szwajcarii przed pierwszą reklamą pojawia się formularz zgody Google (UMP): możesz przyjąć reklamy spersonalizowane, odmówić albo wybrać szczegóły. Bez zgody reklamy nie są personalizowane. Zmienisz to w każdej chwili w Ustawieniach gry › Drobnym drukiem › „Prywatność reklam”. Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), a dla reklam niespersonalizowanych i ochrony przed oszustwami prawnie uzasadniony interes.</dd>
 
-  <h2>Inne gry JaworIT</h2>
-  <p>W Ustawieniach i czasem po ukończonej planszy gra pokazuje nasze inne gry. Lista jest wbudowana w aplikację; nic nie jest pobierane ani wysyłane. Dotknięcie otwiera stronę gry w App Store lub Google Play, gdzie obowiązują zasady prywatności Apple lub Google.</p>
+    <dt>A śledzenie na iPhonie?</dt>
+    <dd>iOS zapyta, czy gra może śledzić Twoją aktywność. Tylko po zgodzie Google dostaje IDFA; bez niej gra działa tak samo. Zmienisz to w Ustawieniach systemu › Prywatność i ochrona › Śledzenie. Na Androidzie identyfikator reklamowy zresetujesz lub usuniesz w ustawieniach systemu.</dd>
 
-  <h2>Zakupy w aplikacji</h2>
-  <p>Jednorazowy zakup „Premium na zawsze” obsługuje Apple (App Store) lub Google (Google Play). Nie widzimy Twoich danych płatniczych. Aplikacja otrzymuje tylko informację, czy zakup jest aktywny, i zapisuje ją na urządzeniu. Obowiązują zasady prywatności Apple lub Google.</p>
+    <dt>Czy gra wysyła powiadomienia?</dt>
+    <dd>Jeśli chcesz, jedno lokalne przypomnienie dziennie o 19:00 o planszy dnia. Planuje je sam telefon: bez serwera, bez usługi push, bez tokenu. Wyłączysz je w Ustawieniach gry lub systemu.</dd>
 
-  <h2>Dzieci</h2>
-  <p>Aplikacja nie jest skierowana do dzieci poniżej 13 lat i świadomie nie zbiera ich danych. Jeśli uważasz, że dziecko przekazało nam dane, napisz do nas.</p>
+    <dt>Jak działa Premium?</dt>
+    <dd>Premium to jednorazowy zakup w aplikacji, obsługiwany przez Apple (App Store) lub Google (Google Play). Nie widzimy danych płatniczych; gra dostaje tylko informację, czy zakup jest aktywny, i zapisuje ją w telefonie. Do płatności stosuje się zasady prywatności Apple lub Google.</dd>
 
-  <h2>Twoje prawa</h2>
-  <p>Nie przechowujemy Twoich danych na serwerach, więc nie mamy czego udostępnić ani usunąć. Dane w aplikacji usuniesz sam. W sprawie danych reklamowych możesz wycofać zgodę w aplikacji, zresetować identyfikator reklamowy lub skorzystać z narzędzi Google. Masz też prawo złożyć skargę do organu ochrony danych, w Polsce do Prezesa UODO.</p>
+    <dt>Dzieci</dt>
+    <dd>Gra nie jest skierowana do dzieci poniżej 13 lat i świadomie nie zbiera ich danych. Jeśli sądzisz, że dziecko coś nam przekazało, napisz.</dd>
 
-  <h2>Zmiany</h2>
-  <p>Jeśli zmienimy tę politykę, opublikujemy nową wersję na tej stronie i zaktualizujemy datę obowiązywania. O istotnych zmianach poinformujemy w aplikacji lub w opisie aktualizacji.</p>
+    <dt>Twoje prawa</dt>
+    <dd>Nie trzymamy Twoich danych na serwerach, więc nie mamy czego wydać ani usunąć; dane w grze kasujesz sam. W sprawie danych reklamowych możesz wycofać zgodę w grze, zresetować identyfikator reklamowy lub użyć narzędzi Google. Możesz też złożyć skargę do Prezesa UODO.</dd>
 
-  <h2>Kontakt</h2>
-  <p>Pytania dotyczące prywatności: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
+    <dt>Zmiany tej strony</dt>
+    <dd>Nowa wersja pojawi się tutaj ze zmienioną datą; o istotnych zmianach powiemy w grze lub w opisie aktualizacji.</dd>
+  </dl>
 </section>
 
 <section id="en" lang="en">
-  <h1>Privacy Policy</h1>
-  <p class="meta">Sudoku Pencil (iOS and Android) · effective November 4, 2026</p>
-  <div class="box">
-    <p>In short: the game works without an account and without internet. Your games, settings and statistics stay on your device. We run no server of our own. Data needed for ads is processed by Google (AdMob), and purchases are handled by Apple and Google.</p>
-  </div>
-
-  <h2>Who is responsible</h2>
-  <p>Sudoku Pencil is made by JaworIT Daniel Jaworski (data controller). Contact: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
-
-  <h2>Data on your device</h2>
-  <p>The app stores the following locally on your device: the current game (board, notes, time, mistakes, hints used), settings (language, haptics, highlighting, mistake checking, the daily reminder), statistics (games played and won, best times and scores, daily streak), your answer from the first launch, and whether you bought Premium. This data is not sent to us or anyone else. You can delete it by clearing the app's data or uninstalling the app.</p>
-  <p>You do not create an account or give us your name or email address. The app uses no analytics or crash-reporting tools.</p>
-
-  <h2>Ads (Google AdMob)</h2>
-  <p>The free version shows a banner, an occasional full-screen ad between games, and rewarded ads that you start yourself. Ads are provided by Google through the Google Mobile Ads SDK. When an ad is loaded, the SDK may collect and send to Google:</p>
-  <ul>
-    <li>device identifiers, such as the advertising identifier (IDFA on iOS, only with your permission; Android advertising ID) and the app set ID,</li>
-    <li>IP address and approximate location derived from the IP address,</li>
-    <li>information about interactions with ads (for example views, taps, app launches),</li>
-    <li>diagnostic and performance data (for example launch time, SDK crashes).</li>
+  <h2>Privacy</h2>
+  <p class="when">Sudoku Pencil for iOS and Android · version of 6 November 2026</p>
+  <ul class="short">
+    <li>No account and no sign-in.</li>
+    <li>Your progress stays on your phone; we run no server.</li>
+    <li>Ads come from Google; payments are handled by Apple and Google.</li>
   </ul>
-  <p>Google uses this data to show and measure ads, for analytics and to prevent fraud. The data is encrypted in transit. Details: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  <dl>
+    <dt>Who is behind the game?</dt>
+    <dd>JaworIT Daniel Jaworski, the data controller. Write to <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</dd>
 
-  <h2>Ad consent (GDPR)</h2>
-  <p>In the European Economic Area, the UK and Switzerland, the app shows Google's consent form (UMP) before the first ad. You can accept personalized ads, decline, or choose detailed options. Without consent, ads are not personalized. You can change your choice at any time in Settings → "Ad privacy". The legal basis is your consent (Art. 6(1)(a) GDPR) or, for non-personalized ads and fraud prevention, legitimate interest.</p>
+    <dt>What does the game keep on your phone?</dt>
+    <dd>The board in progress with its notes, time, mistakes and hints; your Journey progress and marks; statistics, records and the daily streak; settings (language, sounds, vibration, highlighting, the reminder); your answer from the first launch; and whether you own Premium. None of it reaches us or anyone else. Clearing the app's data or uninstalling it erases everything. The game uses no analytics and no crash reporting.</dd>
 
-  <h2>Tracking on iOS (ATT)</h2>
-  <p>On iPhone and iPad, the system asks whether the app may track your activity. Google receives the IDFA advertising identifier only if you allow it. The game works the same without this permission. You can change it in iOS Settings → Privacy &amp; Security → Tracking. On Android, you can reset or delete the advertising ID in the system settings.</p>
+    <dt>What does Google see when an ad loads?</dt>
+    <dd>The free version shows a banner, now and then a full-screen ad between games, and reward videos that you start yourself. They come from Google AdMob (Google Mobile Ads SDK), which may collect when loading an ad:
+      <ul>
+        <li>device identifiers: the advertising identifier (IDFA on iOS only with your permission, the Android advertising ID) and the app set ID,</li>
+        <li>the IP address and an approximate location derived from it,</li>
+        <li>interactions with ads, such as views and taps,</li>
+        <li>diagnostics, such as launch time and SDK crashes.</li>
+      </ul>
+      Google uses this to show and measure ads, for analytics and to prevent fraud; it is encrypted in transit. More: <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</dd>
 
-  <h2>Notifications</h2>
-  <p>The game can remind you of the daily puzzle with one local notification a day at 19:00. Your phone schedules it. We use no push service or server and create no notification token. Turn it off in the game's settings or in system settings.</p>
+    <dt>How do I change my ad consent?</dt>
+    <dd>In the EEA, the UK and Switzerland, Google's consent form (UMP) appears before the first ad: accept personalized ads, decline, or pick the details. Without consent, ads are not personalized. Change it any time in the game's Settings › Small print › "Ad privacy". The legal basis is your consent (Art. 6(1)(a) GDPR) and, for non-personalized ads and fraud prevention, legitimate interest.</dd>
 
-  <h2>Other JaworIT games</h2>
-  <p>In Settings, and sometimes after a solved puzzle, the game shows our other games. The list is built into the app; nothing is downloaded or sent. A tap opens the game's App Store or Google Play page, where Apple's or Google's privacy policy applies.</p>
+    <dt>And tracking on iPhone?</dt>
+    <dd>iOS asks whether the game may track your activity. Google receives the IDFA only if you allow it; the game plays the same either way. Change it in iOS Settings › Privacy &amp; Security › Tracking. On Android, reset or delete the advertising ID in the system settings.</dd>
 
-  <h2>In-app purchases</h2>
-  <p>The one-time "Premium forever" purchase is processed by Apple (App Store) or Google (Google Play). We never see your payment details. The app only receives whether the purchase is active and stores that on your device. Apple's or Google's privacy policy applies to the payment.</p>
+    <dt>Does the game send notifications?</dt>
+    <dd>If you want, one local reminder a day at 19:00 for the daily puzzle. Your phone schedules it: no server, no push service, no token. Turn it off in the game's settings or the system's.</dd>
 
-  <h2>Children</h2>
-  <p>The app is not directed at children under 13 and does not knowingly collect their data. If you believe a child has provided us with data, please contact us.</p>
+    <dt>How does Premium work?</dt>
+    <dd>Premium is a one-time in-app purchase processed by Apple (App Store) or Google (Google Play). We never see your payment details; the game only learns whether the purchase is active and stores that on your phone. Apple's or Google's privacy policy covers the payment.</dd>
 
-  <h2>Your rights</h2>
-  <p>We do not store your data on any server, so there is nothing for us to export or delete. You can delete the data in the app yourself. For advertising data, you can withdraw consent in the app, reset your advertising ID or use Google's tools. You also have the right to lodge a complaint with a data protection authority.</p>
+    <dt>Children</dt>
+    <dd>The game is not directed at children under 13 and does not knowingly collect their data. If you think a child has sent us something, please write.</dd>
 
-  <h2>Changes</h2>
-  <p>If we change this policy, we will publish the new version on this page and update the effective date. We will point out significant changes in the app or in the update notes.</p>
+    <dt>Your rights</dt>
+    <dd>We keep no data of yours on any server, so there is nothing for us to hand over or delete; you erase the game's data yourself. For advertising data, withdraw consent in the game, reset your advertising ID or use Google's tools. You may also complain to a data protection authority.</dd>
 
-  <h2>Contact</h2>
-  <p>Privacy questions: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
+    <dt>Changes to this page</dt>
+    <dd>A new version will appear here with a new date; significant changes will be mentioned in the game or in the update notes.</dd>
+  </dl>
 </section>
 
 <section id="de" lang="de">
-  <h1>Datenschutzerklärung</h1>
-  <p class="meta">Sudoku Pencil (iOS und Android) · gültig ab 4. November 2026</p>
-  <div class="box">
-    <p>Kurz gesagt: Das Spiel funktioniert ohne Konto und ohne Internet. Deine Spiele, Einstellungen und Statistiken bleiben auf deinem Gerät. Wir betreiben keinen eigenen Server. Daten für Werbung verarbeitet Google (AdMob), Käufe wickeln Apple und Google ab.</p>
-  </div>
-
-  <h2>Verantwortlich</h2>
-  <p>Sudoku Pencil wird von JaworIT Daniel Jaworski erstellt (Verantwortlicher). Kontakt: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
-
-  <h2>Daten auf deinem Gerät</h2>
-  <p>Die App speichert lokal auf deinem Gerät: das aktuelle Spiel (Spielfeld, Notizen, Zeit, Fehler, genutzte Tipps), Einstellungen (Sprache, Vibration, Hervorhebung, Fehleranzeige, tägliche Erinnerung), Statistiken (gespielte und gewonnene Spiele, Bestzeiten und Bestwerte, Tagesserie), deine Antwort beim ersten Start und ob du Premium gekauft hast. Diese Daten werden weder an uns noch an andere gesendet. Du löschst sie, indem du die App-Daten löschst oder die App deinstallierst.</p>
-  <p>Du legst kein Konto an und gibst weder Namen noch E-Mail-Adresse an. Die App nutzt keine Analyse- oder Absturzberichts-Tools.</p>
-
-  <h2>Werbung (Google AdMob)</h2>
-  <p>Die kostenlose Version zeigt ein Banner, gelegentlich eine Vollbildwerbung zwischen zwei Spielen und Werbung mit Belohnung, die du selbst startest. Die Werbung liefert Google über das Google Mobile Ads SDK. Beim Laden einer Anzeige kann das SDK folgende Daten erfassen und an Google senden:</p>
-  <ul>
-    <li>Gerätekennungen, z. B. die Werbe-ID (IDFA auf iOS nur mit deiner Erlaubnis; Android-Werbe-ID) und die App-Set-ID,</li>
-    <li>IP-Adresse und daraus abgeleiteter ungefährer Standort,</li>
-    <li>Informationen zu Interaktionen mit Anzeigen (z. B. Aufrufe, Tippen, App-Starts),</li>
-    <li>Diagnose- und Leistungsdaten (z. B. Startzeit, Abstürze des SDK).</li>
+  <h2>Datenschutz</h2>
+  <p class="when">Sudoku Pencil für iOS und Android · Fassung vom 6. November 2026</p>
+  <ul class="short">
+    <li>Kein Konto, keine Anmeldung.</li>
+    <li>Dein Fortschritt bleibt auf deinem Handy; wir betreiben keinen Server.</li>
+    <li>Werbung kommt von Google, Zahlungen wickeln Apple und Google ab.</li>
   </ul>
-  <p>Google nutzt diese Daten, um Anzeigen auszuliefern und zu messen, für Analysen und zur Betrugsvermeidung. Die Übertragung ist verschlüsselt. Details: <a href="https://policies.google.com/technologies/partner-sites">Wie Google Daten von Websites und Apps von Partnern verwendet</a> und die <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>.</p>
+  <dl>
+    <dt>Wer steht hinter dem Spiel?</dt>
+    <dd>JaworIT Daniel Jaworski, Verantwortlicher. Schreib an <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</dd>
 
-  <h2>Einwilligung zu Werbung (DSGVO)</h2>
-  <p>Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz zeigt die App vor der ersten Anzeige das Einwilligungsformular von Google (UMP). Du kannst personalisierte Werbung erlauben, ablehnen oder Einstellungen im Detail wählen. Ohne Einwilligung wird keine personalisierte Werbung gezeigt. Deine Wahl änderst du jederzeit unter Einstellungen → „Werbe-Datenschutz“. Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) bzw. für nicht personalisierte Werbung und Betrugsvermeidung das berechtigte Interesse.</p>
+    <dt>Was speichert das Spiel auf deinem Handy?</dt>
+    <dd>Das laufende Brett mit Notizen, Zeit, Fehlern und Tipps; deinen Fortschritt auf der Reise und die Striche; Statistiken, Rekorde und die Serie beim Tagesrätsel; Einstellungen (Sprache, Töne, Vibration, Hervorhebung, Erinnerung); deine Antwort beim ersten Start und ob du Premium besitzt. Nichts davon erreicht uns oder andere. Löschen der App-Daten oder Deinstallieren entfernt alles. Das Spiel nutzt keine Analyse- und keine Absturzberichts-Tools.</dd>
 
-  <h2>Tracking auf iOS (ATT)</h2>
-  <p>Auf iPhone und iPad fragt das System, ob die App deine Aktivitäten erfassen darf. Nur wenn du zustimmst, erhält Google die Werbe-ID IDFA. Das Spiel funktioniert ohne diese Erlaubnis genauso. Ändern kannst du das in den iOS-Einstellungen → Datenschutz &amp; Sicherheit → Tracking. Auf Android setzt du die Werbe-ID in den Systemeinstellungen zurück oder löschst sie.</p>
+    <dt>Was sieht Google, wenn eine Anzeige lädt?</dt>
+    <dd>Die kostenlose Version zeigt ein Banner, ab und zu eine Vollbildanzeige zwischen den Spielen und Belohnungsvideos, die du selbst startest. Sie kommen von Google AdMob (Google Mobile Ads SDK), das beim Laden einer Anzeige erfassen kann:
+      <ul>
+        <li>Gerätekennungen: die Werbe-ID (IDFA auf iOS nur mit deiner Erlaubnis, die Android-Werbe-ID) und die App-Set-ID,</li>
+        <li>die IP-Adresse und einen daraus abgeleiteten ungefähren Standort,</li>
+        <li>Interaktionen mit Anzeigen, etwa Aufrufe und Tipps,</li>
+        <li>Diagnosedaten, etwa Startzeit und SDK-Abstürze.</li>
+      </ul>
+      Google nutzt das, um Anzeigen auszuliefern und zu messen, für Analysen und gegen Betrug; die Übertragung ist verschlüsselt. Mehr: <a href="https://policies.google.com/technologies/partner-sites">wie Google Daten aus Partner-Apps verwendet</a> und die <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>.</dd>
 
-  <h2>Benachrichtigungen</h2>
-  <p>Das Spiel kann dich mit einer lokalen Mitteilung pro Tag um 19:00 an das Tagesrätsel erinnern. Dein Telefon plant sie. Wir nutzen keinen Push-Dienst und keinen Server und erzeugen kein Benachrichtigungs-Token. Ausschalten kannst du sie in den Einstellungen des Spiels oder des Systems.</p>
+    <dt>Wie ändere ich meine Werbe-Einwilligung?</dt>
+    <dd>Im EWR, im Vereinigten Königreich und in der Schweiz erscheint vor der ersten Anzeige Googles Einwilligungsformular (UMP): personalisierte Werbung annehmen, ablehnen oder Details wählen. Ohne Einwilligung ist Werbung nicht personalisiert. Ändern kannst du das jederzeit in den Einstellungen des Spiels › Kleingedrucktes › „Werbe-Datenschutz“. Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), für nicht personalisierte Werbung und Betrugsschutz das berechtigte Interesse.</dd>
 
-  <h2>Weitere Spiele von JaworIT</h2>
-  <p>In den Einstellungen und manchmal nach einem gelösten Rätsel zeigt das Spiel unsere anderen Spiele. Die Liste ist in der App enthalten; nichts wird geladen oder gesendet. Ein Tippen öffnet die Seite im App Store oder bei Google Play, wo die Datenschutzerklärung von Apple bzw. Google gilt.</p>
+    <dt>Und Tracking auf dem iPhone?</dt>
+    <dd>iOS fragt, ob das Spiel deine Aktivität verfolgen darf. Google erhält die IDFA nur mit deiner Erlaubnis; das Spiel läuft so oder so gleich. Ändern unter iOS-Einstellungen › Datenschutz &amp; Sicherheit › Tracking. Unter Android setzt du die Werbe-ID in den Systemeinstellungen zurück oder löschst sie.</dd>
 
-  <h2>In-App-Käufe</h2>
-  <p>Den einmaligen Kauf „Premium für immer“ wickelt Apple (App Store) oder Google (Google Play) ab. Wir sehen deine Zahlungsdaten nie. Die App erhält nur die Information, ob der Kauf aktiv ist, und speichert sie auf dem Gerät. Für die Zahlung gilt die Datenschutzerklärung von Apple bzw. Google.</p>
+    <dt>Schickt das Spiel Mitteilungen?</dt>
+    <dd>Wenn du möchtest, eine lokale Erinnerung pro Tag um 19 Uhr an das Tagesrätsel. Dein Handy plant sie: kein Server, kein Push-Dienst, kein Token. Abschalten in den Einstellungen des Spiels oder des Systems.</dd>
 
-  <h2>Kinder</h2>
-  <p>Die App richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten von ihnen. Wenn du glaubst, dass ein Kind uns Daten übermittelt hat, melde dich bitte.</p>
+    <dt>Wie funktioniert Premium?</dt>
+    <dd>Premium ist ein einmaliger In-App-Kauf über Apple (App Store) oder Google (Google Play). Zahlungsdaten sehen wir nie; das Spiel erfährt nur, ob der Kauf aktiv ist, und speichert das auf deinem Handy. Für die Zahlung gelten die Datenschutzregeln von Apple oder Google.</dd>
 
-  <h2>Deine Rechte</h2>
-  <p>Wir speichern deine Daten auf keinem Server, daher können wir nichts herausgeben oder löschen. Die Daten in der App löschst du selbst. Zu Werbedaten kannst du deine Einwilligung in der App widerrufen, die Werbe-ID zurücksetzen oder die Tools von Google nutzen. Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.</p>
+    <dt>Kinder</dt>
+    <dd>Das Spiel richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten von ihnen. Wenn du glaubst, ein Kind hat uns etwas geschickt, schreib uns.</dd>
 
-  <h2>Änderungen</h2>
-  <p>Wenn wir diese Erklärung ändern, veröffentlichen wir die neue Fassung auf dieser Seite und aktualisieren das Gültigkeitsdatum. Auf wesentliche Änderungen weisen wir in der App oder in den Update-Hinweisen hin.</p>
+    <dt>Deine Rechte</dt>
+    <dd>Wir speichern keine Daten von dir auf Servern, also gibt es nichts herauszugeben oder zu löschen; die Daten im Spiel löschst du selbst. Bei Werbedaten kannst du die Einwilligung im Spiel widerrufen, die Werbe-ID zurücksetzen oder Googles Werkzeuge nutzen. Du kannst dich auch bei einer Datenschutzbehörde beschweren.</dd>
 
-  <h2>Kontakt</h2>
-  <p>Fragen zum Datenschutz: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
+    <dt>Änderungen dieser Seite</dt>
+    <dd>Eine neue Fassung erscheint hier mit neuem Datum; wesentliche Änderungen erwähnen wir im Spiel oder in den Update-Hinweisen.</dd>
+  </dl>
 </section>
 
 <section id="es" lang="es">
-  <h1>Política de privacidad</h1>
-  <p class="meta">Sudoku Pencil (iOS y Android) · en vigor desde el 4 de noviembre de 2026</p>
-  <div class="box">
-    <p>En resumen: el juego funciona sin cuenta y sin internet. Tus partidas, ajustes y estadísticas se quedan en tu dispositivo. No tenemos servidor propio. Los datos necesarios para los anuncios los trata Google (AdMob), y las compras las gestionan Apple y Google.</p>
-  </div>
-
-  <h2>Responsable</h2>
-  <p>Sudoku Pencil lo crea JaworIT Daniel Jaworski (responsable del tratamiento). Contacto: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
-
-  <h2>Datos en tu dispositivo</h2>
-  <p>La app guarda localmente en tu dispositivo: la partida actual (tablero, notas, tiempo, errores, pistas usadas), los ajustes (idioma, vibración, resaltado, comprobación de errores, recordatorio diario), las estadísticas (partidas jugadas y ganadas, mejores tiempos y puntuaciones, racha diaria), tu respuesta del primer inicio y si has comprado Premium. Estos datos no se envían ni a nosotros ni a nadie. Puedes borrarlos eliminando los datos de la app o desinstalándola.</p>
-  <p>No creas ninguna cuenta ni nos das tu nombre o correo electrónico. La app no usa herramientas de analítica ni de informes de fallos.</p>
-
-  <h2>Anuncios (Google AdMob)</h2>
-  <p>La versión gratuita muestra un banner, de vez en cuando un anuncio a pantalla completa entre partidas y anuncios con recompensa que inicias tú. Los anuncios los proporciona Google mediante el Google Mobile Ads SDK. Al cargar un anuncio, el SDK puede recopilar y enviar a Google:</p>
-  <ul>
-    <li>identificadores del dispositivo, como el identificador de publicidad (IDFA en iOS, solo con tu permiso; ID de publicidad de Android) y el ID del conjunto de apps,</li>
-    <li>la dirección IP y la ubicación aproximada derivada de ella,</li>
-    <li>información sobre interacciones con anuncios (por ejemplo, visualizaciones, toques, aperturas de la app),</li>
-    <li>datos de diagnóstico y rendimiento (por ejemplo, tiempo de inicio, fallos del SDK).</li>
+  <h2>Privacidad</h2>
+  <p class="when">Sudoku Pencil para iOS y Android · versión del 6 de noviembre de 2026</p>
+  <ul class="short">
+    <li>Sin cuenta ni inicio de sesión.</li>
+    <li>Tu progreso se queda en tu teléfono; no tenemos servidor propio.</li>
+    <li>Los anuncios los sirve Google; los pagos, Apple y Google.</li>
   </ul>
-  <p>Google usa estos datos para mostrar y medir anuncios, para analítica y para prevenir el fraude. Los datos se cifran durante la transmisión. Más información: <a href="https://policies.google.com/technologies/partner-sites">Cómo utiliza Google la información de sitios web o aplicaciones que utilizan sus servicios</a> y la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
+  <dl>
+    <dt>¿Quién está detrás del juego?</dt>
+    <dd>JaworIT Daniel Jaworski, responsable del tratamiento. Escribe a <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</dd>
 
-  <h2>Consentimiento para anuncios (RGPD)</h2>
-  <p>En el Espacio Económico Europeo, el Reino Unido y Suiza, la app muestra el formulario de consentimiento de Google (UMP) antes del primer anuncio. Puedes aceptar anuncios personalizados, rechazarlos o elegir opciones detalladas. Sin consentimiento, los anuncios no se personalizan. Puedes cambiar tu elección en cualquier momento en Ajustes → «Privacidad de anuncios». La base jurídica es tu consentimiento (art. 6.1.a del RGPD) o, para anuncios no personalizados y prevención del fraude, el interés legítimo.</p>
+    <dt>¿Qué guarda el juego en tu teléfono?</dt>
+    <dd>El tablero en curso con sus notas, tiempo, errores y pistas; tu progreso en el Viaje y las marcas; estadísticas, récords y la racha del sudoku del día; los ajustes (idioma, sonidos, vibración, resaltado, aviso); tu respuesta del primer inicio y si tienes Premium. Nada de eso nos llega a nosotros ni a nadie. Borrar los datos de la app o desinstalarla lo elimina todo. El juego no usa analítica ni informes de fallos.</dd>
 
-  <h2>Seguimiento en iOS (ATT)</h2>
-  <p>En iPhone y iPad, el sistema te pregunta si la app puede rastrear tu actividad. Google solo recibe el identificador de publicidad IDFA si lo permites. El juego funciona igual sin este permiso. Puedes cambiarlo en Ajustes de iOS → Privacidad y seguridad → Rastreo. En Android puedes restablecer o eliminar el ID de publicidad en los ajustes del sistema.</p>
+    <dt>¿Qué ve Google cuando se carga un anuncio?</dt>
+    <dd>La versión gratuita muestra un banner, de vez en cuando un anuncio a pantalla completa entre partidas y vídeos con recompensa que inicias tú. Los sirve Google AdMob (Google Mobile Ads SDK), que al cargar un anuncio puede recoger:
+      <ul>
+        <li>identificadores del dispositivo: el identificador de publicidad (IDFA en iOS solo con tu permiso, el ID de publicidad de Android) y el ID del conjunto de apps,</li>
+        <li>la dirección IP y una ubicación aproximada derivada de ella,</li>
+        <li>interacciones con los anuncios, como vistas y toques,</li>
+        <li>datos de diagnóstico, como el tiempo de inicio y fallos del SDK.</li>
+      </ul>
+      Google los usa para mostrar y medir anuncios, para analítica y para evitar fraudes; viajan cifrados. Más: <a href="https://policies.google.com/technologies/partner-sites">cómo usa Google la información de las apps asociadas</a> y la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</dd>
 
-  <h2>Notificaciones</h2>
-  <p>El juego puede recordarte el sudoku del día con una notificación local al día a las 19:00. La programa tu teléfono. No usamos ningún servicio push ni servidor y no creamos ningún token de notificaciones. Puedes desactivarla en los ajustes del juego o del sistema.</p>
+    <dt>¿Cómo cambio mi consentimiento de anuncios?</dt>
+    <dd>En el EEE, el Reino Unido y Suiza aparece antes del primer anuncio el formulario de consentimiento de Google (UMP): aceptar anuncios personalizados, rechazarlos o elegir detalles. Sin consentimiento, los anuncios no se personalizan. Cámbialo cuando quieras en Ajustes del juego › Letra pequeña › «Privacidad de anuncios». La base jurídica es tu consentimiento (art. 6.1.a RGPD) y, para anuncios no personalizados y prevención del fraude, el interés legítimo.</dd>
 
-  <h2>Otros juegos de JaworIT</h2>
-  <p>En Ajustes y a veces tras resolver un sudoku, el juego muestra nuestros otros juegos. La lista va incluida en la app; no se descarga ni se envía nada. Al tocar se abre la página del juego en App Store o Google Play, donde se aplica la política de privacidad de Apple o de Google.</p>
+    <dt>¿Y el seguimiento en iPhone?</dt>
+    <dd>iOS te pregunta si el juego puede rastrear tu actividad. Google recibe el IDFA solo si lo permites; el juego funciona igual en ambos casos. Cámbialo en Ajustes de iOS › Privacidad y seguridad › Rastreo. En Android, restablece o elimina el ID de publicidad en los ajustes del sistema.</dd>
 
-  <h2>Compras dentro de la app</h2>
-  <p>La compra única «Premium para siempre» la procesa Apple (App Store) o Google (Google Play). Nunca vemos tus datos de pago. La app solo recibe si la compra está activa y lo guarda en tu dispositivo. Al pago se aplica la política de privacidad de Apple o de Google.</p>
+    <dt>¿El juego envía notificaciones?</dt>
+    <dd>Si quieres, un aviso local al día a las 19:00 para el sudoku del día. Lo programa tu teléfono: sin servidor, sin servicio push, sin token. Desactívalo en los ajustes del juego o del sistema.</dd>
 
-  <h2>Menores</h2>
-  <p>La app no está dirigida a menores de 13 años y no recopila sus datos de forma consciente. Si crees que un menor nos ha facilitado datos, escríbenos.</p>
+    <dt>¿Cómo funciona Premium?</dt>
+    <dd>Premium es una compra única dentro de la app que gestiona Apple (App Store) o Google (Google Play). Nunca vemos tus datos de pago; el juego solo sabe si la compra está activa y lo guarda en tu teléfono. Al pago se aplica la política de privacidad de Apple o de Google.</dd>
 
-  <h2>Tus derechos</h2>
-  <p>No guardamos tus datos en ningún servidor, así que no tenemos nada que entregar ni borrar. Los datos de la app los borras tú. Sobre los datos publicitarios, puedes retirar el consentimiento en la app, restablecer tu ID de publicidad o usar las herramientas de Google. También tienes derecho a presentar una reclamación ante una autoridad de protección de datos.</p>
+    <dt>Menores</dt>
+    <dd>El juego no está dirigido a menores de 13 años y no recoge sus datos a sabiendas. Si crees que un menor nos ha enviado algo, escríbenos.</dd>
 
-  <h2>Cambios</h2>
-  <p>Si cambiamos esta política, publicaremos la nueva versión en esta página y actualizaremos la fecha de entrada en vigor. Avisaremos de los cambios importantes en la app o en las notas de la actualización.</p>
+    <dt>Tus derechos</dt>
+    <dd>No guardamos datos tuyos en ningún servidor, así que no hay nada que entregar ni borrar; los datos del juego los borras tú. Sobre los datos publicitarios, puedes retirar el consentimiento en el juego, restablecer el ID de publicidad o usar las herramientas de Google. También puedes reclamar ante una autoridad de protección de datos.</dd>
 
-  <h2>Contacto</h2>
-  <p>Preguntas sobre privacidad: <a href="mailto:kontakt@jaworit.pl">kontakt@jaworit.pl</a>.</p>
+    <dt>Cambios en esta página</dt>
+    <dd>La nueva versión aparecerá aquí con una fecha nueva; los cambios importantes se mencionarán en el juego o en las notas de la actualización.</dd>
+  </dl>
 </section>
 
-</main>
-<footer>Sudoku Pencil · com.jaworit.sudoku</footer>
+<footer>– Sudoku Pencil · JaworIT –</footer>
+</div>
 </body>
 </html>
